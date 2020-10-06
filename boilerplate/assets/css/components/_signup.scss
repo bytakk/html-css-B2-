@@ -1,0 +1,64 @@
+.mobile {
+
+    width: 25%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding : 12px;
+    background-color: burlywood;
+    border-radius: 5px;
+}
+
+img {
+ 
+ height: 40%;
+ width: 100%;
+}
+
+.infos {
+    background-color:black;
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+input {
+    width: 75%;
+   margin-bottom: 20px;
+   border-radius: 5px;
+   background-color: burlywood;
+}
+
+label {
+    text-transform: uppercase;
+    margin-bottom: 3%;
+    color: pink;
+}
+
+#submit {
+    width: 20%;
+    height: 10%;
+    padding : 0;
+    margin : 0;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: -30px ;
+    right : 10px;
+    font-size: 15px;
+    border : solid 2px pink;
+}
