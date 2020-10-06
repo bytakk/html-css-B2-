@@ -674,7 +674,7 @@ img {
   position: relative;
 }
 
-form {
+.signup {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -702,7 +702,7 @@ input {
 label {
   text-transform: uppercase;
   margin-bottom: 3%;
-  color: pink;
+  color: white;
 }
 
 #submit {
@@ -718,6 +718,37 @@ label {
   right: 10px;
   font-size: 15px;
   border: solid 2px pink;
+}
+
+body {
+  padding: 15px;
+}
+
+.card-newsletter {
+  width: 100%;
+  height: 50vh;
+  background-color: grey;
+  border-radius: 5px;
+}
+
+#newsletter {
+  width: 20%;
+  height: 10%;
+  color: black;
+  background-color: white;
+  margin: 0 0px 0 40px;
+}
+
+#abonner {
+  width: 20%;
+  height: 10%;
+  background-color: yellowgreen;
+  color: white;
+  text-transform: uppercase;
+}
+
+.formulaire {
+  margin: 0 auto;
 }
 
 body {
